@@ -1,6 +1,7 @@
 #!/bin/bash
 #####variables#####
 dir='/data/data/com.termux/files/home/public-ip'
+move='/data/data/com.termux/files/usr/share/'
 #####colors#####
 
 red='\033[1;31m'
@@ -18,6 +19,8 @@ echo -e "${purple}[*]${yellow}Setup running..."
 cd $dir
 chmod 770 pubip
 mv pubip $PREFIX/bin/
+cd
+mv public-ip/ $move
 sleep 2s
-echo -e "${green}[√]${blue}Setup complete."
+echo -e "${green}[√]${blue}Setup complete. Just type- \033[1;42mpubip on your terminal"
 echo -e "${yellow}Thanks for installing. Have a good day. (^_^)"
