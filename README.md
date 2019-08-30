@@ -1,13 +1,13 @@
-#Public-ip
+###Public-ip
 
 This is just a normal bash script to check your public IP or external IP address for "TERMUX" application. If you're lazy to do that.(^0^)<br>
 
-#Requirements
+##Requirements
 
 This tool requires figlet & curl packages. But don't worry when I'm here. 
 Just follow the installation process.😉
 
-#Installation Process
+##Installation Process
 
 To install this tool on Termux App, you have to write this commands properly one by one on your terminal.
 You can copy these commands, if you don’t want any trouble while installing.😁<br>
@@ -18,6 +18,6 @@ You can copy these commands, if you don’t want any trouble while installing.�
 
 Tada!!! You have successfully installed this tool.<br>
 
-#Usage
+##Usage
 
 To use this tool, you just have to type <b>pubip</b> on your terminal. That's it.
