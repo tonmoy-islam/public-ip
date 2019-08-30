@@ -16,9 +16,14 @@ You can copy these commands, if you donâ€™t want any trouble while installing.ðŸ
 * cd public-ip
 * chmod +x *
 * ./install.sh or bash install.sh
+
 ```
 Tada!!! You have successfully installed this tool.
 
 ## Usage
 
-To use this tool, you just have to type <b>pubip</b> on your terminal. That's it.
+To use this tool, you just have to type the command given below. That's it.(^_^) 
+```
+pubip
+
+```
