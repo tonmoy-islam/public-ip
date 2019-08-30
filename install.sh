@@ -12,18 +12,18 @@ yellow='\033[1;33m'
 #####Coding section#####
 echo -e "${green}[+] ${yellow}Installing requirements..." 
 echo ""
-sleep 1s
+sleep 3s
 apt install curl figlet -y
 echo -e "${green}[√] Succesfully installed requirements."
-sleep 2s
+sleep 3s
 clear
 echo -e "${purple}[*] ${yellow}Setup running..."
-sleep 2s
+sleep 3s
 cd $dir
 chmod 770 pubip
 mv pubip $PREFIX/bin/
 cd
 mv public-ip/ $move
 clear
-echo -e "${green}[√] ${blue}Setup complete. Just type- \033[0;47mpubip${blue} on your terminal"
+echo -e "${green}[√] ${blue}Setup complete. Just type- ${green}pubip ${blue}on your terminal"
 echo -e "${yellow}Thanks for installing. Have a good day. (^_^)"
