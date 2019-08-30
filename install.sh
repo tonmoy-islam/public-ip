@@ -12,7 +12,7 @@ yellow='\033[1;33m'
 echo -e "${green}[+]{yellow}Installing requirements..." 
 echo ""
 sleep 1s
-apt install figlet ruby -y
+apt install curl figlet -y
 clear
 echo -e "${purple}[*]${yellow}Setup running..."
 cd $dir
