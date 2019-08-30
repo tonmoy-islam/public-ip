@@ -11,13 +11,13 @@ yellow='\033[1;33m'
 #####Coding section#####
 echo -e "${green}[+]{yellow}Installing requirements..." 
 echo ""
-sleep 0.5s
+sleep 1s
 apt install figlet ruby -y
 clear
 echo -e "${purple}[*]${yellow}Setup running..."
-sleep 0.5s
 cd $dir
 chmod 770 pubip
 mv pubip $PREFIX/bin/
+sleep 2s
 echo -e "${green}[√]${blue}Setup complete."
-echo -e "${yellow}Thanks for installing. Have a good day. (^_^)
+echo -e "${yellow}Thanks for installing. Have a good day. (^_^)"
